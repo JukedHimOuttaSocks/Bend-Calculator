@@ -100,8 +100,8 @@ def bendXY(k):
     
 #%%
 
-# Set spring constant and get solution
-k = 82550000
+# Set spring constant and get solution 
+k = 82550000 # Torque units per radian
 x, y = bendXY(k)
 
 # Overlay solution onto the image
